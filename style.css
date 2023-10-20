@@ -1,0 +1,54 @@
+.rps-buttons
+{
+    list-style: none;
+    text-decoration:none;
+    display:flex;
+    gap:20px;
+    align-items:center;
+    justify-content: center;
+}
+.rps-buttons img
+{
+ width: 200px;
+ height:auto;
+}
+.rps-buttons  li
+{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.mainHeading
+{
+   text-align: center;
+   font-size:x-large;
+   font-weight: bold;
+   padding:20px;
+}
+.result,
+.finalresult
+{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.finalresult
+{
+    padding:20px;
+    color:blue;
+    font-size:xx-large;
+}
+.about
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:blueviolet;
+
+}
