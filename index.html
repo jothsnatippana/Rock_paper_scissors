@@ -2,25 +2,46 @@
 <html>
     <head>
        <link href="style.css" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
        <script src="flow.js" type="text/javascript" defer></script>
     </head>
     <body>
-        <div class="mainHeading">Wanna play ROCK-PAPER-SCISSORS??select one of these from below..</div>
-        <div class="about">who wins?
-            <div> The first one who reaches the target score(target score=5)</div>
-        </div>
-        
+        <div class="mainHeading">Wanna play ROCK-PAPER-SCISSORS??</div>
         <div class="context">
-            <ul class="rps-buttons">
-            <li ><button id="rock"> <img src="rps-images/rock.png"> </button>ROCK</li>
-            <li ><button id="paper"> <img src="rps-images/paper.png"> </button>PAPER</li>
-            <li ><button id="scissors"> <img src="rps-images/scissors.png"> </button><div>SCISSORS</div></li>
+            <div class="instructions">
+                <h2>How to play?</h2>
+                    <p>1.choose one of the button of your choice.</p>
+                    <p>2.after that computer will be selecting its choice.</p>
+                    <p>3.the result will be displayed.</p>
+                    <p>NOTE:when the target score is reached and winner is displayed the game itself restarts again which mean the score of both player and computer are set to Zero(0).</p>
+                </ul>
+                <h2>Who Wins?</h2>
+                <p>The one who reaches target score first will be the winner.</p>
+                <p>NOTE:Target score is referred as player score and computer score. The Target Score for the Game is five(5)</p>
+            </div>
+            <div class="representation">
+            <div class="rpsbuttons">
+            <ul>
+            <li><button id="rock"> <img src="rps-images/rock.png"> </button>ROCK</li>
+            <li><button id="paper"> <img src="rps-images/paper.png"> </button>PAPER</li>
+            <li><button id="scissors"> <img src="rps-images/scissors.png"> </button><div>SCISSORS</div></li>
             </ul> 
+            </div>
+            <div class="result">
+
+            </div>
+            <div class="selection">
+    
+            </div>
+            <div class="finalresult">
+
+            </div>
+            </div>
         </div>
-        <div class="result">
-        </div>
-        <div class="finalresult">
-        </div>
+       
+        
         
     </body>
 </html>

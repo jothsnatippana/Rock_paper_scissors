@@ -1,33 +1,53 @@
-.rps-buttons
+body{
+    box-sizing: border-box;
+}
+.rpsbuttons ul
+, .instructions ul
 {
     list-style: none;
     text-decoration:none;
+}
+.rpsbuttons ul
+{
     display:flex;
     gap:20px;
     align-items:center;
     justify-content: center;
 }
-.rps-buttons img
+.rpsbuttons
+{
+    display:flex;
+}
+.rpsbuttons img
 {
  width: 200px;
  height:auto;
 }
-.rps-buttons  li
+
+.rpsbuttons  ul li
 {
     display:flex;
     flex-direction: column;
     gap:10px;
-    align-items: center;
+    align-items:center;
+    font-family:serif;
+}
+
+.rpsbuttons button
+{
+  justify-content: flex-start;
+  align-items: self-start;
 }
 .mainHeading
 {
+   font-family: 'Playpen Sans', cursive;
    text-align: center;
    font-size:x-large;
    font-weight: bold;
-   padding:20px;
+   padding:10px;
 }
 .result,
-.finalresult
+.finalresult,.selection
 {
     display:flex;
     flex-direction: row;
@@ -36,19 +56,27 @@
     justify-content: center;
     font-size: larger;
     font-weight: bold;
+    font-family: 'Nosifer', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    padding:10px;
 }
 
 .finalresult
 {
     padding:20px;
     color:blue;
-    font-size:xx-large;
+
 }
-.about
+
+.context
 {
     display:flex;
-    flex-direction: column;
-    align-items: center;
-    color:blueviolet;
-
+    gap:20px;
+}
+.instructions
+{
+    margin-left: 30px;
+    padding:10px;
+    border:1px solid pink;
+    width:300px;
 }
